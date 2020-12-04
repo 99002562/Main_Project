@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script src="src/Project_functions.js"></script>
+    <script src="src/Test_functions.js"></script>
+    
+    <style>
+        *{
+            background-color: rgb(243, 239, 235);
+            font-size:24pt;
+            padding: 5px;
+            margin: 5px;  
+        }
+        button{
+                
+     background-color: #fff;    
+     width: 80px;    
+     height: 60px;    
+     font-size: 20px;    
+     border: 1px solid #097C9B;   
+     
+      
+        }
+        input{
+            height: 45px;
+        }
+        input:focus{
+            background-color: goldenrod;
+            color:beige;
+        }
+        .calbody{    
+     background: #097C9B;    
+     background-color: rgb(146, 135, 123);
+     border: 1px solid #ff0; 
+     border: co;   
+     padding: 10px;    
+     margin-left: 450px;    
+     min-width: 13.4em;    
+     max-width: 7.4em;    
+         
+    }    
+    </style>
+</head>
+<body>
+ <div class="calbody">
+     <h1>Math Calc Program</h1>
+     <hr>
+     <div>
+     <p> <input type="number" id="val1" placeholder="Enter the First Value"></p>
+     <p> <input type="number" id="val2" placeholder="Enter the Secon Value"></p>
+    <p>
+    <button onclick="onAdd()">+</button>
+    <button onclick="onSub()">-</button>
+    <button onclick="onMul()">X</button>
+    <button onclick="onDiv()">/</button>
+    <button onclick="onPer()">%</button>
+    <button onclick="onSqr()">Sqrt</button>
+    <button onclick="Clr()">C</button>    
+    </p>
+</div>
+     <p>
+         The Result:
+         <span id="spResult"></span>
+     </p>
+ </div>   
+</body>
+</html>
