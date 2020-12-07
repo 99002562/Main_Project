@@ -1,4 +1,4 @@
-describe('Testing the Calculator', ()=>{
+//describe('Testing the Calculator', ()=>{
   it('should add 2 numbers', ()=>{
       const result = addFunc(3,3);
       expect(result).toBe(6);
@@ -13,4 +13,4 @@ describe('Testing the Calculator', ()=>{
   })
 
 
-});
+//});
