@@ -102,3 +102,4 @@ function Clr(){
   document.getElementById('val2').value = '';
   
 }
+ 
